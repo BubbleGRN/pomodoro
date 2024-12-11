@@ -1,14 +1,14 @@
 <template>
   <v-app>
     <v-app-bar>
-      <v-container class="d-flex align-center">
-        <v-app-bar-title>番茄鐘</v-app-bar-title>
-        <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
-        <v-btn prepend-icon="mdi-format-list-bulleted" to="/list">事項</v-btn>
-        <v-btn prepend-icon="mdi-cog" to="/settings">設定</v-btn>
+      <v-container class="d-flex align-center" style="background: lightgreen">
+        <v-app-bar-title style="color: black">番茄鐘</v-app-bar-title>
+        <v-btn prepend-icon="mdi-home" to="/" style="color: black">首頁</v-btn>
+        <v-btn prepend-icon="mdi-format-list-bulleted" to="/list" style="color: black">事項</v-btn>
+        <v-btn prepend-icon="mdi-cog" to="/settings" style="color: black">設定</v-btn>
       </v-container>
     </v-app-bar>
-    <v-main>
+    <v-main style="background: orange">
       <!--
       slot = 插槽 = 自訂元件內的某個部分 HTML
       v-slot = "元件插槽提供的可用變數"
